@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Parallax</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			.conteudo{
+				color: #777;
+				background: white;
+				text-align: justify;
+				padding: 50px 80px;
+			}
+			h3{
+				text-transform: uppercase;
+				color: #111;
+				text-align: center;
+			}
+			p{
+				margin-bottom: 20px;
+			}
+			body,html{
+				margin: 0;
+				font: 16px "Lato", sans-serif;
+				color: #777;
+				height: 100%;
+			}
+			.caixa1, .caixa2, .caixa3, .caixa4{
+				position: relative;/*a posição é absoluta quando os elementos dentro dessa div tem posição absoluta*/
+				height: 100%;
+				opacity: 0.7;/*vai de 0 a 1*/
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+			}
+			.caixa1{
+				background-image: url(imagens/imagem1.jpg);
+			}
+			.caixa2{
+				background-image: url(imagens/imagem2.jpg);
+			}
+			.caixa3{
+				background-image: url(imagens/imagem3.jpg);
+			}
+			.caixa4{
+				background-image: url(imagens/imagem4.jpg);
+			}
+			.conteudo-titulo{
+				position: absolute;
+				left: 0;
+				top: 45%;
+				width: 100%;
+				text-align: center;
+			}
+			.conteudo-titulo span.titulo{
+				color: white;
+				background: #111;
+				padding: 18px;
+				font-size: 25px;
+				letter-spacing: 5px;
+				text-transform: uppercase;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="caixa1">
+			<div class="conteudo-titulo">
+				<span class="titulo">Passeio de Balões</span>
+			</div>
+		</div>
+		<div class="conteudo">
+			<h3>Parallax</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisi urna, iaculis sed ultricies eu, porttitor eu sem. Aenean posuere massa pellentesque est tristique pretium. Sed eu magna sollicitudin, tempus felis lacinia, placerat velit. Sed malesuada nibh sit amet risus condimentum, vel consequat ex bibendum. Aliquam commodo laoreet urna, et luctus risus blandit a. In id rhoncus ipsum, ut fringilla nisi. Aenean sagittis nulla lorem, sit amet luctus velit euismod in. In hac habitasse platea dictumst. Mauris varius enim non est maximus, vitae sagittis libero iaculis. Vivamus imperdiet neque magna, euismod feugiat libero faucibus vel. Maecenas eu felis libero. Praesent dolor ligula, imperdiet vitae volutpat consectetur, faucibus in dolor.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisi urna, iaculis sed ultricies eu, porttitor eu sem. Aenean posuere massa pellentesque est tristique pretium. Sed eu magna sollicitudin, tempus felis lacinia, placerat velit. Sed malesuada nibh sit amet risus condimentum, vel consequat ex bibendum. Aliquam commodo laoreet urna, et luctus risus blandit a. In id rhoncus ipsum, ut fringilla nisi. Aenean sagittis nulla lorem, sit amet luctus velit euismod in. In hac habitasse platea dictumst. Mauris varius enim non est maximus, vitae sagittis libero iaculis. Vivamus imperdiet neque magna, euismod feugiat libero faucibus vel. Maecenas eu felis libero. Praesent dolor ligula, imperdiet vitae volutpat consectetur, faucibus in dolor.
+			</p>
+		</div>
+		<div class="caixa2">
+			<div class="conteudo-titulo">
+				<span class="titulo">Pegando a Estrada</span>
+			</div>
+		</div>
+		<div class="conteudo">
+			<h3>Parallax</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisi urna, iaculis sed ultricies eu, porttitor eu sem. Aenean posuere massa pellentesque est tristique pretium. Sed eu magna sollicitudin, tempus felis lacinia, placerat velit. Sed malesuada nibh sit amet risus condimentum, vel consequat ex bibendum. Aliquam commodo laoreet urna, et luctus risus blandit a. In id rhoncus ipsum, ut fringilla nisi. Aenean sagittis nulla lorem, sit amet luctus velit euismod in. In hac habitasse platea dictumst. Mauris varius enim non est maximus, vitae sagittis libero iaculis. Vivamus imperdiet neque magna, euismod feugiat libero faucibus vel. Maecenas eu felis libero. Praesent dolor ligula, imperdiet vitae volutpat consectetur, faucibus in dolor.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisi urna, iaculis sed ultricies eu, porttitor eu sem. Aenean posuere massa pellentesque est tristique pretium. Sed eu magna sollicitudin, tempus felis lacinia, placerat velit. Sed malesuada nibh sit amet risus condimentum, vel consequat ex bibendum. Aliquam commodo laoreet urna, et luctus risus blandit a. In id rhoncus ipsum, ut fringilla nisi. Aenean sagittis nulla lorem, sit amet luctus velit euismod in. In hac habitasse platea dictumst. Mauris varius enim non est maximus, vitae sagittis libero iaculis. Vivamus imperdiet neque magna, euismod feugiat libero faucibus vel. Maecenas eu felis libero. Praesent dolor ligula, imperdiet vitae volutpat consectetur, faucibus in dolor.
+			</p>
+		</div>
+		<div class="caixa3">
+			<div class="conteudo-titulo">
+				<span class="titulo">Pôr do Sol</span>
+			</div>
+		</div>
+		<div class="caixa4">
+			<div class="conteudo-titulo">
+				<span class="titulo">Montanhas</span>
+			</div>
+		</div>
+	</body>
+</html>
